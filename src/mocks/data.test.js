@@ -17,7 +17,7 @@ describe("generateSampleProducts function", () => {
       expect(product.title).toBe(`Product ${index + 1}`);
       expect(product.description).toBe(`Description for Product ${index + 1}`);
       expect(product.price).toBeGreaterThanOrEqual(0);
-      expect(product.price).toBeLessThanOrEqual(1000);
+      expect(product.price).toBeLessThanOrEqual(10000);
     });
   });
 });

@@ -12,7 +12,7 @@ export function generateSampleProducts(count: number): Product[] {
     const product: Product = {
       id: i + 1,
       description: `Description for Product ${i + 1}`,
-      price: parseFloat((Math.random() * 1000).toFixed(2)),
+      price: parseFloat((Math.random() * 10000).toFixed(2)),
       title: `Product ${i + 1}`,
     };
     sampleProducts.push(product);
